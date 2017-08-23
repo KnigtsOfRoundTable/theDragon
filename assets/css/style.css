@@ -78,11 +78,11 @@
       border: solid lightgrey 1px;
       border-radius:5px;
     }
-    #kyleSection .pricingBoxWhiteSpace{
-      height: 280px;
-    }
     #kyleSection h4 {
       text-transform: uppercase;
+    }
+    #kyleSection span.glyphicon {
+      margin-right:10px;
     }
     #kyleSection .socialBarTitle {
       padding: 0 10px;
@@ -110,6 +110,10 @@
     #kyleSection .titanBoxLogo {
       width: 50%;
       margin-top:11px;
+    }
+    .priceImage {
+      display:block;
+      margin: 0 auto;
     }
 /*END OF KYLES CSS**************************************************/
 
@@ -159,6 +163,7 @@
   }
 /*END OF OTHER CSS**************************************************/
 
+/*START OF ERICKS CSS**************************************************/
 /*Sprite Logos */
 footer .adobe, footer .coke, footer .franklin, footer .nick, footer .ameritrade, footer .case {
   background-image: url("../images/footerSprite2.png");
@@ -269,3 +274,4 @@ footer .footerRibbon {
     width: 103.5%;
   }
 }
+/*END OF ERICKS CSS**************************************************/
