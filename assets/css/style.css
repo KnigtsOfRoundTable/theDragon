@@ -1,0 +1,71 @@
+/*START OF BENS CSS**************************************************/
+.navbar-collapse a {
+  color: gray;
+}
+
+.carousel-caption {
+  padding-bottom: 10%;;
+}
+
+.carousel-caption h3 {
+  font-size: 35px;
+}
+
+.title-green {
+  color: #5ebb46;
+}
+
+.btn-custom {
+  margin-top: 8%;
+}
+
+.navbar-brand {
+  width: 50px;
+  height: 50px;
+  background-image: url("/Users/benhutchings/theDragon/assets/images/mainLogo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand-text {
+  font-size: 35px;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav li {
+  font-size: 18px;
+}
+
+.navbar-brand-text:hover {
+  color: #5ebb46;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  float: left;
+}
+
+#mobileNavbar {
+  text-align: center;
+}
+
+.google-icon {
+  text-align: right;
+  width: 100%;
+}
+
+.icon-bar {
+  background: gray;
+}
+
+@media (min-width:801px) {
+  #mobileNavbar {
+    float: right;
+  }
+  .nav-wrap {
+    border-top: solid lightgray 1px;
+  }
+}
+
+/*END OF BENS CSS**************************************************/
