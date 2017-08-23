@@ -69,3 +69,92 @@
 }
 
 /*END OF BENS CSS**************************************************/
+
+/*START OF KYLES CSS**************************************************/
+
+    #kyleSection .pricingBox {
+      min-height: 400px;
+      background-color:#fff;
+      border: solid lightgrey 1px;
+      border-radius:5px;
+    }
+    #kyleSection .pricingBoxWhiteSpace{
+      height: 280px;
+    }
+    #kyleSection h4 {
+      text-transform: uppercase;
+    }
+    #kyleSection .socialBarTitle {
+      padding: 0 10px;
+      margin: 15px 5px 0 5px;
+      color:#b7b7b7;
+    }
+    #kyleSection .socialBar {
+      padding: 0 10px;
+      margin: 15px 5px 0 5px;
+      color:#b7b7b7;
+      -o-transition:.5s;
+      -ms-transition:.5s;
+      -moz-transition:.5s;
+      -webkit-transition:.5s;
+      transition:.5s
+    }
+    #kyleSection .socialBar:hover {
+      color:#007bd9;
+      text-decoration: none;
+    }
+    #kyleSection .titanNavLogo {
+      width: 18%;
+      margin: -6px 0 0 20px;
+    }
+    #kyleSection .titanBoxLogo {
+      width: 50%;
+      margin-top:11px;
+    }
+/*END OF KYLES CSS**************************************************/
+
+/*OTHER CSS**************************************************/
+    body {
+      background-color: #e7e7e7;
+    }
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .smallText {
+      font-size: .9em;
+    }
+    hr {
+      border: solid #a7a7a7 1px;
+      box-shadow: 0px 2px 5px #a7a7a7;
+    }
+    .blueText {
+      color:#007bd9;
+    }
+    .blackText {
+      color:#000;
+    }
+    .greyText {
+      color:#b7b7b7;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption p {
+      display: none;
+    }
+  }
+/*END OF OTHER CSS**************************************************/
