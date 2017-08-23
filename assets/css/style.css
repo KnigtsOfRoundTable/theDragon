@@ -158,3 +158,114 @@
     }
   }
 /*END OF OTHER CSS**************************************************/
+
+/*Sprite Logos */
+footer .adobe, footer .coke, footer .franklin, footer .nick, footer .ameritrade, footer .case {
+  background-image: url("../images/footerSprite2.png");
+  background-repeat: no-repeat;
+  height: 46px;
+  display: block;
+  margin: 0 auto;
+}
+footer .adobe {
+  background-position: -5px 0px;
+  width: 34px;
+}
+footer .adobe:hover {
+  background-position: -5px -45px;
+}
+footer .coke {
+  background-position: -56px 0px;
+  width: 82px;
+}
+footer .coke:hover {
+  background-position: -56px -45px;
+}
+footer .franklin {
+  background-position: -165px 0px;
+  width: 178px;
+}
+footer .franklin:hover {
+  background-position: -165px -45px;
+}
+footer .nick {
+  background-position: -363px 0px;
+  width: 57px;
+}
+footer .nick:hover {
+  background-position: -363px -45px;
+}
+footer .ameritrade {
+  background-position: -448px 0px;
+  width: 182px;
+}
+footer .ameritrade:hover {
+  background-position: -448px -45px;
+}
+footer .case {
+  background-position: -654px 0px;
+  width: 98px;
+}
+footer .case:hover {
+  background-position: -654px -45px;
+}
+
+/*Footer and Ribbon Styles*/
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+  position: relative;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
+}
+footer p {
+  color: #dde5f0;
+  padding: 10px 40px;
+  font-size: .8em;
+}
+footer .footerRibbon {
+  height: 38px;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: -25px;
+  left: 0px;
+  background: #339ef0;
+  background: -moz-linear-gradient(top, #339ef0 0%, #339ef0 50%, #007bd9 50%, #007bd9 100%);
+  background: -webkit-linear-gradient(top, #339ef0 0%, #339ef0 50%, #007bd9 50%, #007bd9 100%);
+  background: linear-gradient(to bottom, #339ef0 0%, #339ef0 50%, #007bd9 50%, #007bd9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#339ef0', endColorstr='#007bd9',GradientType=0 );
+}
+
+@media only screen and (min-width: 768px) {
+  footer .footerRibbon {
+    width: 100%;
+    overflow: visible;
+  }
+}
+@media only screen and (min-width: 992px) {
+  footer .footerRibbon {
+    width: 104.25%;
+    left: -20px;
+    bottom: -25px;
+  }
+  footer .footerRibbon .leftRibbonArrow, footer .footerRibbon .rightRibbonArrow {
+    position: inherit;
+    top: -20px;
+    height: 20px;
+    width: 20px;
+    border-top: 20px solid transparent;
+  }
+  footer .footerRibbon .leftRibbonArrow {
+    left: 0px;
+    border-right: 20px solid #2a2f31;
+  }
+  footer .footerRibbon .rightRibbonArrow {
+    right: 0px;
+    border-left: 20px solid #2a2f31;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  footer .footerRibbon {
+    width: 103.5%;
+  }
+}
