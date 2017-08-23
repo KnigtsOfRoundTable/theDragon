@@ -9,10 +9,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+    body {
+      background-color: #e7e7e7;
+    }
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+    }
+    .smallText {
+      font-size: .75em;  
+    }
+    hr {
+      border: solid #a7a7a7 1px;
+      box-shadow: 0px 2px 5px #a7a7a7;
     }
     .blueText {
       color:#007bd9;
@@ -26,6 +36,23 @@
     span.greyText {
       margin-right:10px;
     }
+    #kyleSection .pricingBox {
+      min-height: 400px;
+      background-color:#fff;
+      border: solid lightgrey 1px;
+      border-radius:5px;
+    }
+    #kyleSection .pricingBoxWhiteSpace{
+      height: 230px;
+    }
+    #kyleSection h4 {
+      text-transform: uppercase;
+    }
+    #kyleSection .socialBar {
+      padding: 0 10px;
+    }
+    
+    
     
     /* Add a gray background color and some padding to the footer */
     footer {
@@ -111,13 +138,23 @@
 </div>
 
 
-<!--KYLE'S Section of Grid and Columns--> 
+<!--===============================================================
+===============KYLE'S Section of Grid and Columns==================
+==================================================================-->
+<section id="kyleSection">
 <div class="container">
   <div class="row">
-    <div class="col-sm-12">
-      <h3>SOME WORDS ABOUT</h3><br>
+    <div class="col-sm-3">
+      <h3>SOME WORDS ABOUT</h3>
+    </div>
+    <div class="col-sm-5">
+      <h3>SOME WORDS ABOUT</h3>
+    </div>
+    <div class="col-sm-4">
+      <h4>get social<span class="fa fa-twitter socialBar"></span><span class="fa fa-facebook socialBar"></span><span class="fa fa-google socialBar"></span><span class="fa fa-youtube socialBar"></span></h4>
     </div>
   </div>
+  <hr>
   <div class="row">
     <div class="col-sm-12 col-md-3">
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
@@ -144,7 +181,7 @@
   <hr><br>
 
   <div class="row">
-    <div class="col-sm-12 col-md-8">
+    <div class="col-sm-12 col-md-9">
       <div class="row">
         <div class="col-sm-12 col-md-4">
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
@@ -165,23 +202,25 @@
       <div class="row">
           <div class="col-sm-12 col-md-12">
               <h4 class="blueText">Seo Content</h4>
-              <p>Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.</p>
+              <p>Proin eget tortor risus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. consectetur adipiscing elit. Donec sollicitudin molestie malesuada. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Praesent sapien massa, convallis a pellentesqu.</p>
           </div>
       </div>
     </div>
-    <div class="col-sm-12 col-md-4">
-      <div class="col-sm-12 col-md-12">
-        <div class="well">
-        <p>Some text..</p>
-        </div>
-        <div class="well">
-        <p>Some text..</p>
-        </div>
+
+    <div class="col-sm-12 col-md-3 text-center">
+      <div class="col-sm-12 col-md-12 pricingBox">
+        <br>
+        <p class="blueText">cool numbers/ client performance</p>
+        <div class="pricingBoxWhiteSpace"></div>
+        <button type="button" class="btn btn-primary">See Pricing | <span class="fa fa-bolt"></span></button>
+        <br><br>
+        <p class="smallText">With a commitment to quality web content<br> for the world wide web.<br> LavaVolt. Made in USA. 2017.</p>
       </div>
     </div>
   </div>
 </div><br>
-<!--END OF KYLE'S SECTION-->
+</section>
+<!--============================END OF KYLE'S SECTION====================================-->
 
 
 <footer class="container-fluid text-center">
