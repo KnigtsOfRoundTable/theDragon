@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
     body {
       background-color: #e7e7e7;
     }
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
     .smallText {
-      font-size: .75em;  
+      font-size: .75em;
     }
     hr {
       border: solid #a7a7a7 1px;
@@ -51,15 +52,15 @@
     #kyleSection .socialBar {
       padding: 0 10px;
     }
-    
-    
-    
+
+
+
     /* Add a gray background color and some padding to the footer */
     footer {
       background-color: #f2f2f2;
       padding: 25px;
     }
-    
+
   .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
@@ -68,34 +69,39 @@
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
   @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; 
+    .carousel-caption p {
+      display: none;
     }
   }
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Logo</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+  <!--===============================================================
+  ===============BEN'S Section for Navbar and Carousel==================
+  ==================================================================-->
+
+<nav id="ben" class="navbar">
+  <div class="container">
+    <div class="google-icon hidden-xs"><img src="assets/images/Screen Shot 2017-08-22 at 9.37.44 PM.png" alt=""></div>
+    <div class="nav-wrap">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobileNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand-text" href="#">TITAN3</a>
+      </div>
+      <div class="collapse navbar-collapse hidden-sm-down" id="mobileNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+          <li><a href="#"></span><i class="fa fa-user-circle-o" aria-hidden="true"></i> Portfolio</a></li>
+          <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+          <li><a href="#"><i class="fa fa-star" aria-hidden="true"></i> Blog</a></li>
+        </ul>
+      </div>
     </div>
   </div>
 </nav>
@@ -105,24 +111,36 @@
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <img src="assets/images/slide1.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>Sell $</h3>
-          <p>Money Money.</p>
-        </div>      
+          <h3>Custom <span class="title-green">Development</span></h3>
+          <p>Concept to delivery, we are your end to end solution.</p>
+          <button type="button" class="btn btn-primary btn-custom">Learn More | <i class="fa fa-bolt" aria-hidden="true"></i></button>
+        </div>
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <img src="assets/images/slide2.jpg" alt="Image">
         <div class="carousel-caption">
-          <h3>More Sell $</h3>
-          <p>Lorem ipsum...</p>
-        </div>      
+          <h3>Never <span class="title-green">Forget</span></h3>
+          <p>The real hero.</p>
+          <button type="button" class="btn btn-primary btn-custom">Learn More | <i class="fa fa-bolt" aria-hidden="true"></i></button>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="assets/images/slide1.jpg" alt="Image">
+        <div class="carousel-caption">
+          <h3>Some great title</h3>
+          <p>get attention.</p>
+          <button type="button" class="btn btn-primary btn-custom">Learn More | <i class="fa fa-bolt" aria-hidden="true"></i></button>
+        </div>
       </div>
     </div>
 
@@ -136,6 +154,8 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+<!--============================END OF BEN'S SECTION====================================-->
+
 
 
 <!--===============================================================
@@ -188,15 +208,15 @@
           <h4 class="blueText">Seo Content</h4>
           <p>Proin eget tortor risus. Viv amus magna justo, lacinia eget consectetur sed, conva llis at tellus.</p>
         </div>
-        <div class="col-sm-12 col-md-4"> 
+        <div class="col-sm-12 col-md-4">
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           <h4 class="blueText">Seo Content</h4>
-          <p>Proin eget tortor risus. Viv amus magna justo, lacinia eget consectetur sed, conva llis at tellus.</p>    
+          <p>Proin eget tortor risus. Viv amus magna justo, lacinia eget consectetur sed, conva llis at tellus.</p>
         </div>
-        <div class="col-sm-12 col-md-4"> 
+        <div class="col-sm-12 col-md-4">
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           <h4 class="blueText">Seo Content</h4>
-          <p>Proin eget tortor risus. Viv amus magna justo, lacinia eget consectetur sed, conva llis at tellus.</p>   
+          <p>Proin eget tortor risus. Viv amus magna justo, lacinia eget consectetur sed, conva llis at tellus.</p>
         </div>
       </div>
       <div class="row">
