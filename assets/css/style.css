@@ -70,6 +70,72 @@
 
 /*END OF BENS CSS**************************************************/
 
+/*START OF JEREMYS CSS**************************************************/
+    #jeremySection .container-fluid{
+      background-color: #000000 ;
+    }
+    #jeremySection h3{
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+    #jeremySection p{
+      color: #ffffff;
+    }
+
+    #jeremySection ul{
+      list-style-type: none;
+    }
+
+    #jeremySection .list-group{
+      padding-left: 50px;
+    }
+
+    #jeremySection .list-group-itemA{
+      color: #ffffff;
+    }
+
+    #jeremySection .list-group-itemB{
+      color: #ffffff;
+    }
+
+    #jeremySection .list-group-itemC{
+      color: #ffffff;
+    }
+
+    #jeremySection .list-group-itemD{
+      color: #ffffff;
+    }
+
+    #jeremySection .titanNavLogoWhite{
+      margin-top: 10px;
+      margin-bottom: 5px;
+      width:80%;
+    }
+
+    #jeremySection .bottom{
+      padding-bottom: 10px;
+      border-bottom: 1px solid #252a2d;
+    }
+
+    #jeremySection .list-group-item1{
+      color: #005da6;
+    }
+
+    #jeremySection .list-group-item2{
+      color: #2c3437;
+    }
+
+    #jeremySection .list-group-item3{
+      color: #5ebb46;
+    }
+
+    #jeremySection .darkGreyText{
+      color: #384145;
+    }
+
+
+/*END OF JEREMYS CSS**************************************************/
+
 /*START OF KYLES CSS**************************************************/
 
     #kyleSection .pricingBox {
