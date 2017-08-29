@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/KnigtsOfRoundTable/theDragon/issues"
   },
-  "homepage": "https://github.com/KnigtsOfRoundTable/theDragon#readme"
+  "homepage": "https://github.com/KnigtsOfRoundTable/theDragon#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "jquery": "^3.2.1"
+  }
 }
