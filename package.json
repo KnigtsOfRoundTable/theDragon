@@ -1,0 +1,19 @@
+{
+  "name": "thedragon",
+  "version": "1.0.0",
+  "description": "setting up node for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kylejohnson2612@github.com/KnigtsOfRoundTable/theDragon.git"
+  },
+  "author": "kyle johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KnigtsOfRoundTable/theDragon/issues"
+  },
+  "homepage": "https://github.com/KnigtsOfRoundTable/theDragon#readme"
+}
